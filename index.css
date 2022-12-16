@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px;
+    padding-bottom: 10px;
+}
+.brand{
+    max-width: 100%;
+    object-fit: cover;
+}
+.btn-nav{
+    border: 0;
+    background-color: white;
+    font-family: 'Open Sans' sans-serif;
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    font-size: 14px;
+    width: 115px;
+    padding: 8px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btn-nav:hover{
+    color: hsl(321, 100%, 78%);
+    border-color: hsl(321, 100%, 78%);
+}
+.ad-container{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+.content-container{
+    text-align: center;
+    padding: 25px 65px;
+    width: 625px;
+}
+.content{
+    font-weight: 400;
+}
+.btn-ad{
+    margin-top: 15px;
+    border: 0;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    box-shadow: 1px 2px 8px 0.5px rgba(0, 0, 0, 0.5);
+}
+.btn-ad:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+.container-2{
+    position: relative;
+    width: 100%;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.container-2-content{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 65px;
+}
+.card-1,.card-2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.card-icons{
+    margin-left: 10px;
+    width:30px;
+}
+.num{
+    color: hsl(192, 100%, 9%);
+    font-weight: 700;
+    font-size: 65px;
+}
+.subtext{
+    text-align: center;
+    color: #a2a4b8;
+}
+.section-top-img{
+    width: 100%;
+}
+.section-top-img-mob{
+    display: none;
+}
+.bg-footer-container-2{
+    position: absolute;
+    width:100vw;
+    top: 1050px;
+    left:0;
+    z-index: 10;
+}
+.container-3{
+    background-color: hsl(207, 100%, 98%);
+    margin-top: 233px;
+    height:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 175px;
+}
+.content-3-container{
+    padding-right: 225px;
+}
+.con-3-heading,.con-4-heading{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-weight: 600;
+    font-size: 35px;
+}
+.con-3-content{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.con-3-ill-container{
+    padding: 20px;
+}
+.con-3-img{
+    max-width: 450px;
+    object-fit: cover;
+}
+.section-bottom-img{
+    width: 100%;
+}
+.bg-footer-container-3{
+    width: 100vw;
+}
+.section-bottom-img-mob{
+    display: none;
+}
+.container-4{
+    position: relative;
+    margin-top: 50px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 175px;
+}
+.con-4-img{
+    width: 450px;
+}
+.con-4-content-container {
+    margin-top: 95px;
+}
+.con-4-content{
+    padding-top: 15px;
+    font-size: 14px;
+    width: 520px;
+}
+.bg-footer-container-4{
+    position: absolute;
+    width: 100vw;
+    top: 400px
+}
+.section-top-img-4{
+    width: 100%;
+}
+.section-top-img2-mob{
+    display: none;
+}
+.section-bottom-img2-mob{
+    display: none;
+}
+.con-5{
+    margin-top: 76px;
+}
+.container-6{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.con-6-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+.con-6-btn-container{
+    width: 100%;
+    text-align: center;
+}
+.con-6-btn{
+    margin-top: 20px;
+    border: 0;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    box-shadow: 1px 2px 8px 0.5px rgba(0, 0, 0, 0.5);
+}
+.con-6-btn:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+.page-footer-container{
+    width: 100vw;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-img-mob{
+    display: none;
+}
+.mob-logo{
+    display: none;
+}
+.page-footer-content-container{
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -5px;
+    padding: 20px 100px;
+    height: 450px;
+    display: grid;
+    color: white;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 150px;
+}
+.card{
+    font-size: 12px;
+}
+.card-1-content{
+    width: 250px;
+    margin: 20px 0px;
+}
+.card-1-phone{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.card-1-email,.card-1-phone{
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card-1-email span,.card-1-phone span{
+    display: inline-block;
+    margin-top: -5px;
+}
+.phone-img,.email-img{
+    margin-right: 15px;
+}
+.footer-social-icons i{
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+.card-2-heading{
+    font-size: 16px;
+    font-weight: 700;
+}
+.card-2-content{
+    margin: 20px 0;
+    width: 280px;
+}
+.footer-form-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.email-input{
+    display: block;
+    width: 250px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+input:focus{
+    outline: 1px solid hsl(0, 100%, 63%); 
+}
+.btn-sub{
+    height: 35px;
+    width: 120px;
+    border: 0;
+    cursor: pointer;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 35px;
+}
+.btn-sub:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+.validation{
+    margin-top: 3px;
+    color: hsl(0, 100%, 63%);
+    font-weight: 600;
+    display: none;
+}
+
+@media(max-width: 376px){
+    button{
+        font: inherit;
+    }
+    .navbar{
+        padding: 15px;
+        padding-right: 35px;
+    }
+    .brand-container{
+        width: 100px;
+    }
+    .btn-nav{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .ad-container{
+        margin-top: 45px;
+    }
+    .heading-container{
+        text-align: center;
+        padding: 10px 45px;
+    }
+    .heading{
+        font-size: 22px;
+    }
+    .content-container{
+        padding: 15px;
+        font-size: 12px;
+        width: 300px;
+        font-weight: 600;
+    }
+    .btn-container{
+        margin-top: 25px;
+    }
+    .btn-ad{
+        width: 200px;
+        height: 35px;
+        font-size: 13px;
+    }
+    .screen{
+        max-width: 100%;
+        object-fit: cover;
+    }
+    .screen-container{
+        padding: 35px;
+    }
+    .container-2-content{
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .card-1,.card-2{
+        text-align: center;
+    }
+    .card-icons{
+        margin-left: 100px;
+    }
+    .section-top-img{
+        display: none;
+    }
+    .section-top-img-mob{
+        display: inline-block;
+    }
+    .bg-footer-container-2{
+        top:696px
+    }
+    .container-3{
+        position: relative;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+    .con-3-img{
+        max-width: 100%;
+    }
+    .content-3-container{
+        position: absolute;
+        top: 350px;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .con-3-heading{
+        font-size: 18px;
+    }
+    .con-3-content{
+        width: 100%;
+        font-size: 13px;
+        text-align: center;
+        padding: 5px 40px;
+    }
+    .con-3-ill-container{
+        width: 100%;
+        padding: 45px;
+    }
+    .section-bottom-img{
+        display: none;
+    }
+    .section-bottom-img-mob{
+        display: block;
+        max-width: 100%;
+    }
+    .container-4{
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .con-4-ill-container,.con-4-content-container,.con-4-content,.con-4-heading{
+        width: 100vw;
+        text-align: center;
+    }
+    .con-4-ill-container{
+        padding: 50px;
+    }
+    .con-4-img{
+        max-width: 100%;
+    }
+    .con-4-content-container{
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .con-4-heading{
+        font-size: 18px;
+    }
+    .con-4-content{
+        font-size: 13px;
+        padding: 10px 25px;
+    }
+    .section-top-img-4{
+        display: none;
+    }
+    .section-top-img2-mob{
+        display: block;
+    }
+    .bg-footer-container-4{
+        top: 479px;
+    }
+    .section-bottom-img2-mob{
+        display: block;
+    }
+    .con-6-heading{
+        font-size: 22px;
+        text-align: center;
+    }
+    .con-6-btn{
+        font: inherit;
+        width: 175px;
+        height: 35px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .footer-img{
+        display: none;
+    }
+    .footer-img-mob{
+        display: block;
+    }
+    .page-footer-bg-container{
+        margin-bottom: -3px;
+    }
+    .page-footer-content-container{
+        padding: 0;
+        margin: 0;
+        position: relative;
+        grid-template-columns: 1fr;
+        height: 650px;
+        column-gap: 0;
+        width: 100vw;
+        row-gap: 25px;
+    }
+    .footer-card-1,.footer-card-2{
+        width: 100vw;
+        padding: 20px;
+    }
+    .card-1-heading{
+        width: 150px;
+    }
+    .footer-brand-desk{
+        display: none;
+    }
+    .mob-logo{
+        display: block;
+        max-width: 100%;
+    }
+    .footer-form-container{
+        flex-direction: column;
+    }
+    .input-container{
+        width: 100%;
+        padding-right: 20px;
+    }
+    .email-input{
+        width: 100%;
+    }
+    .btn-sub{
+        align-self: end;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    .footer-card-1{
+        position: absolute;
+        top: 300px;
+    }
+}
